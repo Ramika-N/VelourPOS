@@ -7,10 +7,7 @@ import velourpos.model.Sale.PaymentMethod;
 import java.time.LocalDateTime;
 import java.util.*;
 
-/**
- * In-memory data store seeded with realistic VELOUR demo data.
- * In a production app this would connect to a database.
- */
+
 public class DataStore {
 
     private static DataStore instance;
