@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Theme {
 
-    // ── Color Palette ─────────────────────────────────────────────────────────
+    // ── Color Palette 
     public static final Color BG_DARKEST = new Color(0x0D0D0F);
     public static final Color BG_DARK = new Color(0x14141A);
     public static final Color BG_CARD = new Color(0x1C1C25);
@@ -27,7 +27,7 @@ public class Theme {
     public static final Color BORDER = new Color(0x2A2A38);
     public static final Color BORDER_LIGHT = new Color(0x38384A);
 
-    // ── Typography ────────────────────────────────────────────────────────────
+    // ── Typography 
     public static final Font FONT_TITLE = new Font("Georgia", Font.BOLD, 26);
     public static final Font FONT_HEADING = new Font("Georgia", Font.BOLD, 18);
     public static final Font FONT_SUBHEAD = new Font("Georgia", Font.ITALIC, 14);
