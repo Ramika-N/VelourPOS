@@ -7,10 +7,6 @@ import velourpos.model.Sale.PaymentMethod;
 import java.time.LocalDateTime;
 import java.util.*;
 
-/**
- * In-memory data store seeded with realistic VELOUR demo data.
- * In a production app this would connect to a database.
- */
 public class DataStore {
 
     private static DataStore instance;
@@ -30,7 +26,7 @@ public class DataStore {
         return instance;
     }
 
-    // ── Products ──────────────────────────────────────────────────────────────
+    // ── Products 
     private void seedProducts() {
         products.add(new Product(nextProductId++, "VLR-TOP-001", "Cashmere Ribbed Turtleneck", "Velour",  Category.TOPS,        "M",   "Ivory",       45.00,  129.99, 24, 5));
         products.add(new Product(nextProductId++, "VLR-TOP-002", "Silk Wrap Blouse",           "Velour",  Category.TOPS,        "S",   "Dusty Rose",  38.00,  109.99, 18, 5));
@@ -82,7 +78,7 @@ public class DataStore {
         }
     }
 
-    // ── Public API ────────────────────────────────────────────────────────────
+    // ── Public API 
     public List<Product> getProducts()                   { return Collections.unmodifiableList(products); }
     public List<Sale>    getSales()                      { return Collections.unmodifiableList(sales); }
 
